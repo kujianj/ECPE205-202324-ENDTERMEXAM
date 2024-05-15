@@ -2,9 +2,9 @@ import javax.swing.*;
 
 public class MainFrame extends JFrame {
     StudentsPanel studentsPanel;
-    CoursePanel coursePanel;
+   // CoursePanel coursePanel;
     JTable enrolleesTable;
-    EnrolledTableModel enrolledTableModel;
+    //EnrolledTableModel enrolledTableModel;
     JButton enrollButton;
 
     public MainFrame() {
@@ -13,9 +13,9 @@ public class MainFrame extends JFrame {
 
     private void init() {
         studentsPanel = new StudentsPanel();
-        coursePanel = new CoursePanel();
-        enrolledTableModel = new EnrolledTableModel();
-        enrolleesTable = new JTable(enrolledTableModel);
+        //coursePanel = new CoursePanel();
+       // enrolledTableModel = new EnrolledTableModel();
+       // enrolleesTable = new JTable(enrolledTableModel);
 
 
 
