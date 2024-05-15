@@ -27,7 +27,7 @@ public class StudentsPanel extends JPanel {
         setLayout(new BorderLayout());
 
         JPanel inputPanel = new JPanel();
-        inputPanel.setLayout(new GridLayout(3, 2));
+        inputPanel.setLayout(new GridLayout(3, 3));
         inputPanel.add(studentIDLabel);
         inputPanel.add(studentIDField);
         inputPanel.add(nameLabel);
